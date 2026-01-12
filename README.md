@@ -10,7 +10,7 @@ I hope this implementation provides the community with a clearer and more intuit
 
 In this official repository, I have deliberately provided the **Nonlinear-only version** of the algorithm. As the author, I stripped away the linear branch to provide researchers with a transparent look at the core mechanism of the ReLU-AF:
 
-1.  **Isolating the Power of ReLU**: It demonstrates that a simple Rectified Linear Unit ($max(0, x)$) is intrinsically capable of "generating" the necessary harmonic and intermodulation components (e.g., difference and sum frequencies) required to cancel complex distortions.
+1.  **Isolating the Power of ReLU**: It demonstrates that a simple Rectified Linear Unit $max(0, x)$ is intrinsically capable of "generating" the necessary harmonic and intermodulation components (e.g., difference and sum frequencies) required to cancel complex distortions.
 2.  **Revealing the Essence**: It proves that nonlinear filtering is essentially a **feature mapping** problem. Once the input is mapped into the right nonlinear space, the distortion can be effectively suppressed using a minimalist structure.
 3.  **Maximum Efficiency**: This version showcases the absolute lower bound of computational cost—achieving robust nonlinear compensation with approximately **$4N+1$** multiplications.
 
