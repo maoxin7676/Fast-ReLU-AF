@@ -49,6 +49,7 @@ If you use this algorithm or code in your research, please cite the original pap
   pages   = {104373},
   doi     = {10.1016/j.dsp.2023.104373}
 }
+```
 <br>
 <p align="center">
 <i>"I hope this implementation provides the community with a clearer and more intuitive understanding of the essence of nonlinear adaptive filtering."</i>
