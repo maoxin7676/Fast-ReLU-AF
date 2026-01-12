@@ -16,7 +16,8 @@ In this official repository, I have deliberately provided the **Nonlinear-only v
 
 ## 🚀 Key Advantages
 
-*   **Ultra-Low Complexity**: Requires significantly fewer computations than traditional Second-Order Volterra filters ($O(N^2)$).
+*   **Ultra-Low Complexity**: Requires significantly fewer computations than traditional Second-Order Volterra filters, which have a complexity of $O(N^2)$. In contrast, our ReLU-AF maintains a linear complexity of approximately $4N+1$.
+*   **Superior Efficiency over FLAF**: Compared to Functional Link Adaptive Filters (FLAF) or Spline-based models, the ReLU operator avoids expensive trigonometric or polynomial expansions, achieving robust nonlinear modeling with minimal arithmetic overhead.
 *   **Physical Intuition**: The ReLU operator naturally mimics physical "clipping" and "saturation" effects common in power amplifiers and low-cost speakers.
 *   **Superior Convergence**: Due to the stability of the ReLU mapping, the algorithm allows for a larger step-size compared to conventional Functional Link Adaptive Filters (FLAF).
 
