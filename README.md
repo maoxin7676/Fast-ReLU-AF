@@ -44,14 +44,14 @@ By running `Main_Intermodulation_Demo.m`, you can observe the following logic:
 If you use this algorithm or code in your research, please cite the original paper:
 
 ```bibtex
-@article{Mao2024ReLUAF,
-  author  = {Mao, Xin and Xiang, Yang and Lu, Jing},
-  journal = {Digital Signal Processing}, 
-  title   = {An efficient nonlinear adaptive filter algorithm based on the rectified linear unit}, 
-  year    = {2024},
-  volume  = {146},
-  pages   = {104373},
-  doi     = {10.1016/j.dsp.2023.104373}
+@article{mao2024efficient,
+  title={An efficient nonlinear adaptive filter algorithm based on the rectified linear unit},
+  author={Mao, Xin and Xiang, Yang and Lu, Jing},
+  journal={Digital Signal Processing},
+  volume={146},
+  pages={104373},
+  year={2024},
+  publisher={Elsevier}
 }
 
 
